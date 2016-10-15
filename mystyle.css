@@ -13,7 +13,7 @@ color: white;
 
 
 .fixedwidth{
-width: 1200px;
+width: 1250px;
 margin: 0 auto;
 
 }
@@ -23,7 +23,7 @@ margin: 0 auto;
 width: 100px;
 margin-top: 2px;
 float: left;
-padding-right: 10px;
+padding-right: 30px;
 
 }
 #logocontainer{
@@ -40,7 +40,7 @@ padding-right: 10px;
 
 }
 .signin p{
- width: 140px;
+ width: 230px;
  padding-top: 10px;
  margin-bottom: 0;
  font-weight: bold;
@@ -93,7 +93,7 @@ list-style: none
 #news-bar{
 background-color: #990000;
 width: 100%;
-height: 90px;
+height: 120px;
 color: white;
 
 }
@@ -102,6 +102,7 @@ color: white;
   margin: 0;
   padding: 0;
   padding-top: 15px;
+  float: left;
 }
 #newshead{
 font-size: 3em;
@@ -110,4 +111,47 @@ font-size: 3em;
 #uk{
 font-size: .7em;
 margin-left: 15px;
+}
+.rss{
+  float: right;
+  margin-top: 26px;
+}
+
+#icon{
+  padding: 0;
+  margin-top: 20px;
+  float: right;
+}
+.rss img{
+  height: 20px;
+  margin-top: 18px;
+  margin-bottom: 0;
+  float: right;
+}
+
+#topic-menu {
+margin-top: 20px;
+}
+#topic-menu ul{
+  background-color: #3E0c0d;
+  list-style: none;
+  padding: 5px 0 0 5px;
+  margin: 0;
+  height: 24px;
+}
+#topic-menu li{
+font-size: 0.9em;
+background-color: none;
+border-right: 1px solid #990000;
+float: left;
+margin-top: 3px;
+padding: 0 9px 0 7px;
+}
+.selected{
+  background-color: #EDEDED;
+  color: #666666;
+  height: 22.5px;
+  position: relative;
+  top: -7.5px;
+  padding-top: 6px !important;
 }
