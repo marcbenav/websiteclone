@@ -1,23 +1,22 @@
 body{
   margin: 0 ;
   font-family: arial;
-}
 
+}
+.container{
+
+}
 #top-bar{
 background-color: #7A0000;
 width: 100%;
 height: 40px;
 color: white;
-
 }
-
 
 .fixedwidth{
 width: 1250px;
 margin: 0 auto;
-
 }
-
 
 #logodiv img{
 width: 100px;
@@ -49,19 +48,16 @@ padding-right: 30px;
  padding-left: 10px;
  float: left;
  height: 29.5px;
-
 }
 
 #top-menu{
 float: left;
-
 }
 
 #top-menu ul{
 margin: 0;
 padding: 0;
 list-style: none
-
 }
 
 #top-menu li{
@@ -95,7 +91,8 @@ background-color: #990000;
 width: 100%;
 height: 120px;
 color: white;
-
+background-image: url('/Users/yaronmarcben-avrahm/desktop/red.png');
+background-position: center;
 }
 
 #news-bar p{
@@ -103,9 +100,11 @@ color: white;
   padding: 0;
   padding-top: 15px;
   float: left;
+
 }
 #newshead{
 font-size: 3em;
+
 
 }
 #uk{
@@ -131,6 +130,7 @@ margin-left: 15px;
 
 #topic-menu {
 margin-top: 20px;
+
 }
 #topic-menu ul{
   background-color: #3E0c0d;
@@ -154,4 +154,62 @@ padding: 0 9px 0 7px;
   position: relative;
   top: -7.5px;
   padding-top: 6px !important;
+}
+#content{
+width: 100%;
+font-size: .8em;
+color: #535353;
+}
+.date{
+  font-weight: bold;
+}
+h1{
+  color: #1f4f82;
+  font-size: 2.7em;
+}
+.image{
+  float: left;
+  height: 300px;
+  margin: 0;
+}
+.news-item{
+  position: relative;
+  left: 10px;
+  width: 280px;
+  float: left;
+  top: -20px;
+  font-size: 1.3em;
+
+}
+.news-item a{
+  color: #1f4f82;
+text-decoration: none;
+}
+
+.news-item a:hover{
+text-decoration: underline;
+}
+
+.news-item img{
+float: left;
+height: 20px;
+padding: 0;
+margin-left: -5px;
+margin-bottom: 0px;
+
+}
+.long{
+  background-color: ;
+  line-height: 20px;
+}
+.headlines p{
+margin-bottom: -15px;
+line-height: 22px;
+}
+.watchlisten{
+float: right;
+height: 300px;
+width: 300px;
+background-color: #EEEEEE;
+
 }
