@@ -208,8 +208,58 @@ line-height: 22px;
 }
 .watchlisten{
 float: right;
-height: 300px;
-width: 300px;
+width: 345px;
 background-color: #EEEEEE;
+margin-top: -80px;
+}
+h2{
+  color: #505050;
+  font-size: 2em;
+  margin: 10px 0 10px 20px;
+}
+.boxes{
+  float: right;
+  margin-top: 18px;
+  height: 20px;
+  margin-right: 5px;
+}
+.left{
+  float: left;
+  height: 150px;
+  border: 1px solid white;
+  padding: 0;
+}
+.titanic{
+  width: 139px;
+  height: 150px;
+  border: 1px solid white;
+  float: left;
+  padding: 0;
+}
+.keys{
+  width: 140px;
+  float: right;
+  height: 150px;
+  border: 1px solid white;
+  padding: 0;
+}
+.right{
+  float: right;
+  height: 150px;
+  border: 1px solid white;
+  padding: 0;
+}
+.list {
+  margin: 0;
+  float: left;
 
+}
+.list li{
+    list-style-image: url('/Users/yaronmarcben-avrahm/desktop/live.png' );
+font-weight: bold;
+font-size: 1.2em;
+padding: 15px 150px 10px 5px;
+}
+.bb{
+  border-bottom: 1px solid #DDDDDD;
 }
